@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd" packageId="" system="http://gbif.org" scope="system" xml:lang="en">
+    <dataset>
+        <title>EU Forest</title>
+        <creator>
+            <individualName>
+              <givenName>Giovanni</givenName>
+              <surName>Strona</surName>
+            </individualName>
+            <organizationName>European Commission, Joint Research Centre, Directorate D—Sustainable Resources, Bio-Economy Unit</organizationName>
+            <address>
+              <deliveryPoint>Via Enrico Fermi 2749</deliveryPoint>
+              <city>Ispra</city>
+              <postalCode>21027</postalCode>
+              <country>Italy</country>
+            </address>
+            <electronicMailAddress>goblinshrimp@gmail.com</electronicMailAddress>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Markus</givenName>
+                <surName>D&#xF6;ring</surName>
+            </individualName>
+            <organizationName>GBIF</organizationName>
+            <electronicMailAddress>mdoering@gbif.org</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0001-7757-1889</userId>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+              <givenName>Achille</givenName>
+              <surName>Mauri</surName>
+            </individualName>
+            <organizationName>European Commission, Joint Research Centre, Directorate D—Sustainable Resources, Bio-Economy Unit</organizationName>
+            <address>
+              <deliveryPoint>Via Enrico Fermi 2749</deliveryPoint>
+              <city>Ispra</city>
+              <postalCode>21027</postalCode>
+              <country>Italy</country>
+            </address>
+            <role>editor</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+              <givenName>Jesús</givenName>
+              <surName>San-Miguel-Ayanz</surName>
+            </individualName>
+            <organizationName>European Commission, Joint Research Centre, Directorate D—Sustainable Resources, Bio-Economy Unit</organizationName>
+            <address>
+              <deliveryPoint>Via Enrico Fermi 2749</deliveryPoint>
+              <city>Ispra</city>
+              <postalCode>21027</postalCode>
+              <country>Italy</country>
+            </address>
+            <role>editor</role>
+        </associatedParty>        
+        <pubDate>2017-01-05</pubDate>
+        <language>en</language>
+        <abstract>
+            <para>We present EU-Forest, a dataset that integrates and extends by almost one order of magnitude the publicly available information on European tree species distribution. The core of our dataset (~96% of the occurrence records) came from an unpublished, large database harmonising forest plot surveys from National Forest Inventories on an INSPIRE-compliant 1 km×1 km grid. These new data can potentially benefit several disciplines, including forestry, biodiversity conservation, palaeoecology, plant ecology, the bioeconomy, and pest management.</para>
+        </abstract>
+        <keywordSet>
+          <keyword>National Forest Inventory</keyword>
+          <keyword>Forestry</keyword>
+          <keyword>Trees</keyword>
+          <keyword>Biodiversity</keyword>
+          <keyword>Europe</keyword>
+          <keyword>Ecology</keyword>
+          <keyword>Palaeoclimate</keyword>
+          <keyword>Plant ecology</keyword>
+          <keywordThesaurus>http://www.nature.com/articles/sdata2016123</keywordThesaurus>
+        </keywordSet>        
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Europe</geographicDescription>
+            </geographicCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>Trees</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>kingdom</taxonRankName>
+                    <taxonRankValue>Plantae</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://dx.doi.org/10.6084/m9.figshare.c.3288407</url>
+            </online>
+        </distribution>
+        <contact> 
+            <individualName>
+              <givenName>Giovanni</givenName>
+              <surName>Strona</surName>
+            </individualName>
+            <organizationName>European Commission, Joint Research Centre, Directorate D—Sustainable Resources, Bio-Economy Unit</organizationName>
+            <address>
+              <deliveryPoint>Via Enrico Fermi 2749</deliveryPoint>
+              <city>Ispra</city>
+              <postalCode>21027</postalCode>
+              <country>Italy</country>
+            </address>
+            <electronicMailAddress>goblinshrimp@gmail.com</electronicMailAddress>
+        </contact>
+        
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2017-01-06T12:00:00</dateStamp>
+                <citation identifier="doi:10.6084/m9.figshare.c.3288407">
+                Strona, Giovanni; Mauri, Achille; San-Miguel-Ayanz, Jesús (2016): A high-resolution pan-European tree occurrence dataset. figshare.
+                </citation>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>
